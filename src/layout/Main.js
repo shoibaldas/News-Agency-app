@@ -10,7 +10,7 @@ const Main = () => {
             <Header></Header>
             <div className='md:grid md:grid-cols-3 md:h-screen'>
                 <div> <LeftSideNav></LeftSideNav> </div>
-                <div><Outlet></Outlet></div>
+                <div className='mt-6'><Outlet></Outlet></div>
                 <div> <RightSideNav></RightSideNav> </div>
             </div>
         </div>

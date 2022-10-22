@@ -41,16 +41,16 @@ const Header = () => {
                     >
                         <ul className="text-md text-white font-semibold items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                             <li className="hover:text-violet-600 hover:underline hover:underline-offset-4 transition duration-700">
-                                <Link to='/home'>Home</Link>
+                                <Link to='/'>Home</Link>
                             </li>
                             <li className="hover:text-violet-600 hover:underline hover:underline-offset-4 transition duration-700">
-                                <Link to='/home'>News</Link>
+                                <Link to='/'>News</Link>
                             </li>
                             <li className="hover:text-violet-600 hover:underline hover:underline-offset-4 transition duration-700">
-                                <Link to='/statistics'>About</Link>
+                                <Link to='/'>About</Link>
                             </li>
                             <li className="hover:text-violet-600 hover:underline hover:underline-offset-4 transition duration-700">
-                                <Link to='/blog'>Contact</Link>
+                                <Link to='/'>Contact</Link>
                             </li>
                         </ul>
                     </div>
