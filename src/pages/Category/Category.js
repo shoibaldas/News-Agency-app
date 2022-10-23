@@ -1,11 +1,18 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
+import NewsPad from '../shared/NewsPad/NewsPad';
 
 const Category = () => {
-    const  news = useLoaderData();
+    const categorynews = useLoaderData();
     return (
         <div>
-            <h1>This category has news: {news.length}</h1>
+            {
+                categorynews.map(news => <NewsPad
+                    key={news._id}
+                    news={news}>
+
+                </NewsPad>)
+            }
         </div>
     );
 };

@@ -8,9 +8,9 @@ const Main = () => {
     return (
         <div>
             <Header></Header>
-            <div className='md:grid md:grid-cols-3 md:h-screen'>
+            <div className='md:grid md:grid-cols-3 md:h-scree'>
                 <div> <LeftSideNav></LeftSideNav> </div>
-                <div className='mt-6'><Outlet></Outlet></div>
+                <div className=''><Outlet></Outlet></div>
                 <div> <RightSideNav></RightSideNav> </div>
             </div>
         </div>
